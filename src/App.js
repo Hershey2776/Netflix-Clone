@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { auth } from "./fireBase";
 import { useDispatch, useSelector } from "react-redux";
 import { login, logout, selectUser } from "./features/userSlice";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // const user = null;
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/" element={<HomePage />}></Route>
         </Routes>
       )}
+      <Footer></Footer>
     </Router>
   );
 }
