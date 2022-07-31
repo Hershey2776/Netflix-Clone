@@ -1,0 +1,38 @@
+
+
+.jumbotron__content {
+  /* overflow-y:scroll ; */
+  position: relative;
+    color: #fff;
+    display: flex;
+    padding: 5rem 3.8rem;
+    border-bottom: 8px solid #303030;
+    font-size: 1.6rem;
+    background-color: black;
+    min-height: 400px;
+  }
+  .jumbotron__content > img {
+    max-width: 35%;
+    max-height: 350px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin: auto;
+  }
+  
+   .jumbotron__content h1 {
+    font-size: 3.1rem;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 3.5rem;
+    font-weight: 700;
+  }
+  
+  .jumbotron__content .jumbotron__text {
+    position: relative;
+
+    margin: auto;
+  }
+  .jumboImage-2 {
+    display: none;
+  }
+ 
