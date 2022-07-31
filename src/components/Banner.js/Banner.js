@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Banner.css";
 
 const Banner = ({ baseurl }) => {
-  const imgPath = "https://image.tmdb.org/t/p/w500";
+  const imgPath = "https://image.tmdb.org/t/p/original";
 
   const [movie, setMovie] = useState([]);
 
